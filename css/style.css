@@ -1,0 +1,49 @@
+/*Element Styling*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading-div{
+    background-color: #F06292;
+    opacity: 0.9;
+    width: fit-content;
+    margin: 30px auto 30px auto;
+    color: #C51162;
+    font-size: 40px;
+    border-radius: 7px;
+    padding: 10px 10px 10px 10px;
+}
+
+.loc{
+    margin-bottom: 25px;
+    background-color: white;
+    color: #C51162;
+    opacity: 0.75;
+    font-size: 30px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.loc a{
+    text-decoration: none;
+    color: #C51162;
+}
+
+.loc i{
+    font-size: 100px;
+}
